@@ -259,7 +259,7 @@ line-height: 30px;
     margin-top: 80px;
 }
 .portfolio{
-    text-align: center;
+    text-align: left;
 }
 .portfolio-title{
     color: #F00;
@@ -288,7 +288,7 @@ line-height: 30px;
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 .portfolio-img{
