@@ -203,15 +203,63 @@ line-height: 30px;
 }
 .sec-bonus{
     margin-top: 80px;
-    width: 100%;
+    /* width: 100%;
     height: 300px;
     background-image: url(./Images/Rectangle\ 2.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+}
+.holiday{
+    /* height: 300px; */
+    text-align: center;
+}
+.holiday-title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.holiday-heading{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.holiday-text{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+.bg-first{
+    position: relative;
+    justify-content: right;
+    text-align: right;
+    padding-top: 80px;
+}
+.bg-first-inner{
+    position: absolute;
+    margin: 70px 500px 0px 900px;
+}
+.bg-second{
+    position: relative;
+
+}
+.bg-second-inner{
+    position: absolute;
+    margin-top: -450px;
 }
 .sec-seven{
     width: 100%;
     margin-top: 80px;
+}
+.portfolio{
+    text-align: center;
 }
 .portfolio-title{
     color: #F00;
@@ -237,13 +285,14 @@ line-height: 30px;
     margin-bottom: 45px;
 }
 .img-container{
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
 
 }
 .portfolio-img{
+    width: 450px;
     height: auto;
 }
 .sec-eight{
